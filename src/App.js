@@ -13,10 +13,6 @@ const App = () => {
     setTodos(todos.filter(todo => todo.id !== id));
   };
 
-  const removeTodo = id => {
-    setTodos(todos.filter(todo => todo.id !== id));
-  };
-
   const addTodo = data => {
     let id = todos.length + 1;
     setTodos([
